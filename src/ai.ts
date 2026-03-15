@@ -1,6 +1,6 @@
 export async function explainArchitecture(graphText: string) {
-  const apiKey = process.env.GEMINI_API_KEY || "AIzaSyCW-xlUpUt7FVRvyhms6I7AZrr8FU-40_k";
-  const model = process.env.GEMINI_MODEL || "gemini-3-flash-preview";
+  const apiKey = process.env.GEMINI_API_KEY ;
+  const model = process.env.GEMINI_MODEL ;
 
   if (!apiKey) {
     return [

@@ -1,3 +1,4 @@
+#!/usr/bin/env ts-node
 import "dotenv/config";
 import { scanFiles } from "./scanner";
 import { buildDependencyGraph, graphToText } from "./analyzer";
